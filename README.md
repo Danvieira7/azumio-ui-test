@@ -9,7 +9,7 @@
 - CSS
 
 ## Original Design 
-![Azumio test original design](https://i.imgur.com/czYDIni.png)
+![Azumio test original design](https://i.imgur.com/Q41tROG.png)
 
 ## Dan's Attempt
-![Dan's attempt design](https://i.imgur.com/UIYnzUh.png)
+![Dan's attempt design](https://i.imgur.com/8kFTiR0.png)
