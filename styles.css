@@ -1,0 +1,149 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+.title {
+    font-size: 31px;
+    padding: 10px;
+    margin: 5px;
+    line-height: 40px;
+    font-weight: normal;
+    color: rgb(40, 46, 77);
+}
+
+.description {
+    font-size: 18px;
+    padding: 5px;
+    line-height: normal;
+    font-weight: normal;
+    color: rgb(40, 46, 77);
+}
+
+.btns-option {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.btn-1 {
+    background-color: rgb(60, 70, 157);
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 3.5%;
+    border-radius: 10px;
+    width: 43%;
+    height: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid lightgray; 
+    color: rgb(155, 153, 153);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 3.5%;
+    border-radius: 5px;
+    width: 43%;
+    height: 70px;
+}
+
+.btn:hover {
+    border: 1px solid rgb(60, 70, 157);
+    cursor: pointer;
+}
+
+.btn:focus {
+    color: white;
+    background-color: rgb(60, 70, 157);
+    outline: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.prog-btn {
+    background-color:transparent;
+    border: none;
+    color: rgb(155, 153, 153);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    width: 25%;
+}
+
+.done-btn {
+    background-color:transparent;
+    border: none;
+    color: rgb(60, 70, 157);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    width: 25%;
+}
+
+.prog-btn:hover {   
+    color: rgb(60, 70, 157);
+    cursor: pointer;
+}
+
+.prog-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.dots {
+    background-color: lightgray;
+    height: 0.1px;
+    width: 0.1px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.last-dot {
+    background-color: rgb(60, 70, 157);
+    height: 4px;
+    width: 4px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 370px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .btn {
+        font-size: 11px;
+        height: 55px;
+    }
+}
